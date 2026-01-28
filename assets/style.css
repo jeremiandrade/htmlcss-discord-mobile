@@ -1,26 +1,41 @@
-css{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 .banner img{
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 
 .title{
     text-align: center;
     font-size: larger;
+
 }
 
 h1{
     font-family: "Sigmar", sans-serif;
     color: white;
+    margin-bottom: 0.5rem;
+    padding: 10px 10px;
+    font-size: 2.5rem;
+    line-height: 3rem;
     
-    
+
 }
 
+p{
+    color: white;
+    margin-bottom: 1rem;
+    text-align:left;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 1px 25px;
+    line-height: 1.5rem;
+}
 
 
 .cube{
@@ -36,23 +51,32 @@ h1{
  }
 
 
-.links{
-    padding: 0.5 1rem;
-    background-color: transparent;
-    text-align: left;
-
-
+.links .download,
+.links .browser{  
+    padding: 0.50rem 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    width: 90%;
+    font-size:18px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
-.Download{
-    background-color: white;
 
+.download{
+    background-color: white;
+    margin-top: 1.2rem;
+    
 }
 
 
 .browser{
     background-color: #5865f2;
-    text-align: center;
+    color: white;
 }
 
 
@@ -67,18 +91,17 @@ body{
 }
 
 
-p{
-    font-family: "DM Sans", sans-serif;  
-    color:white;
-}
 
 .chat{
     border:2px solid #5865f2;
-    padding: 20px;
+    padding: 15px 15px;
     background-color: #5865f2;
     border-radius: 1.5rem;
     margin-bottom: 4rem;
     font-size:larger;
+    margin-top: 4rem;
+    text-align: left;
+    li
 }
 
 
@@ -86,18 +109,20 @@ p{
 
 .game{
     border:2px solid #5865f2;
-    padding: 20px;
+    padding: 15px 15px;
     background-color: #5865f2;
     border-radius: 1.5rem;
     text-align:left; 
     margin-bottom: 4rem;
     font-size: larger;
+    margin-top: 4rem;
     
 }
 
 video{
     width: 100%;
     border-radius: 2rem;
-    
+    margin-bottom: 2rem;
 }
+
 
