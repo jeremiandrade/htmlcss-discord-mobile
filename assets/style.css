@@ -13,7 +13,6 @@
 .title{
     text-align: center;
     font-size: larger;
-
 }
 
 h1{
@@ -23,8 +22,7 @@ h1{
     padding: 10px 10px;
     font-size: 2.5rem;
     line-height: 3rem;
-    
-
+ 
 }
 
 p{
@@ -40,14 +38,15 @@ p{
 
 .cube{
     position: relative;
-
 }
+
 
  .cube_discord{
     position: absolute;
     max-width: 5rem;
     height: auto;
-
+    top: 1rem;
+    left: 4rem;
  }
 
 
@@ -60,17 +59,16 @@ p{
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    width: 90%;
+    width: 80%;
     font-size:18px;
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 
 .download{
     background-color: white;
-    margin-top: 1.2rem;
-    
+    margin-top: 1.2rem;   
 }
 
 
@@ -78,7 +76,6 @@ p{
     background-color: #5865f2;
     color: white;
 }
-
 
 
 body{
@@ -91,30 +88,43 @@ body{
 }
 
 
-
 .chat{
-    border: 10px solid #5865f2;
+    border: 8px solid #5865f2;
     padding: 15px 15px;
     background-color: #5865f2;
     border-radius: 1.5rem;
     margin-bottom: 4rem;
     font-size:larger;
-    margin-top: 4rem;
+    margin-top: 5rem;
     text-align: left;
+}
+
+
+.eyes{
+    position: relative;
+}
+
+.eyes_discord{
+    position: absolute;
+    max-width: 5rem;
+    height: auto;
+    top:-2rem;
+    left: 4rem;
+    
 }
 
 
 
 
 .game{
-    border: 10px solid #5865f2;
+    border: 8px solid #5865f2;
     padding: 15px 15px;
     background-color: #5865f2;
     border-radius: 1.5rem;
     text-align:left; 
     margin-bottom: 4rem;
     font-size: larger;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 video{
