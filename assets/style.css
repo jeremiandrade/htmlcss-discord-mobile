@@ -93,7 +93,7 @@ body{
 
 
 .chat{
-    border:2px solid #5865f2;
+    border: 10px solid #5865f2;
     padding: 15px 15px;
     background-color: #5865f2;
     border-radius: 1.5rem;
@@ -101,14 +101,13 @@ body{
     font-size:larger;
     margin-top: 4rem;
     text-align: left;
-    li
 }
 
 
 
 
 .game{
-    border:2px solid #5865f2;
+    border: 10px solid #5865f2;
     padding: 15px 15px;
     background-color: #5865f2;
     border-radius: 1.5rem;
@@ -116,7 +115,6 @@ body{
     margin-bottom: 4rem;
     font-size: larger;
     margin-top: 4rem;
-    
 }
 
 video{
